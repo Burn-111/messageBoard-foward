@@ -1,0 +1,44 @@
+
+.text-box {
+	font-size: 30rpx;
+	height: 500rpx;
+	border: 1rpx solid #e9e7ef;
+	width: 86%;
+	margin: 0rpx auto;
+	margin-top: 50rpx;
+	margin-bottom: 15rpx;
+	padding: 30rpx 0 0 20rpx;
+	-webkit-border-radius: 6rpx;
+	        border-radius: 6rpx;
+}
+.title {
+	color: black;
+	width: 90%;
+	margin: 0rpx auto;
+	height: 75rpx;
+	line-height: 75rpx;
+	font-size: 37rpx;
+}
+.addbutton {
+	color: white;
+	width: 90%;
+	margin: 0rpx auto;
+	height: 75rpx;
+	line-height: 75rpx;
+	font-size: 37rpx;
+	background: -webkit-gradient(linear, left top, right bottom, from(#86B6FD), color-stop(#8fc9fc), to(#86B6FD));
+	background: -webkit-linear-gradient(left top, #86B6FD, #8fc9fc, #86B6FD);
+	background: linear-gradient(left top, #86B6FD, #8fc9fc, #86B6FD);
+}
+.uni-input{
+	font-size: 30rpx;
+	height: 170rpx;
+	border: 1rpx solid #e9e7ef;
+	width: 86%;
+	margin: 0rpx auto;
+	margin-bottom: 15rpx;
+	padding: 20rpx 0 0 20rpx;
+	-webkit-border-radius: 6rpx;
+	        border-radius: 6rpx;
+}
+

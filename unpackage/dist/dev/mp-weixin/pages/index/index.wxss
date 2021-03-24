@@ -1,0 +1,97 @@
+
+.uni-padding-wrap {
+	padding: 30rpx;
+}
+view {
+	font-size: 28rpx;
+}
+.uni-comment {
+	padding: 5rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	        flex-grow: 1;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	margin-top: 20rpx;
+	border-bottom: 1rpx solid #e9e7ef;
+}
+.uni-comment-list {
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+	padding: 10rpx 0;
+	margin: 10rpx 0;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	border-bottom: 1rpx solid #e9e7ef;
+}
+.uni-comment-body {
+	width: 100%;
+}
+.uni-comment-date {
+	line-height: 38rpx;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	display: -webkit-box !important;
+	display: -webkit-flex !important;
+	display: flex !important;
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	        flex-grow: 1;
+	color: gray;
+}
+.uni-comment-date view {
+	color: #666666;
+	font-size: 24rpx;
+	line-height: 38rpx;
+}
+.uni-comment-content {
+	line-height: 1.6em;
+	font-size: 28rpx;
+	padding: 8rpx 0;
+}
+.uni-comment-replay-btn {
+	background: #FFF;
+	font-size: 24rpx;
+	line-height: 28rpx;
+	padding: 5rpx 20rpx;
+	-webkit-border-radius: 30rpx;
+	        border-radius: 30rpx;
+	color: #333 !important;
+	margin: 0 10rpx;
+}
+.commitButton {
+
+	color: white;
+	width: 90%;
+	margin: 0rpx auto;
+	height: 75rpx;
+	line-height: 75rpx;
+	font-size: 37rpx;
+	background: -webkit-gradient(linear, left top, right bottom, from(#86B6FD), color-stop(#8fc9fc), to(#86B6FD));
+	background: -webkit-linear-gradient(left top, #86B6FD, #8fc9fc, #86B6FD);
+	background: linear-gradient(left top, #86B6FD, #8fc9fc, #86B6FD);
+}
+.contentTextArea {
+	font-size: 30rpx;
+	height: 170rpx;
+	border: 1rpx solid #e9e7ef;
+	width: 86%;
+	margin: 0rpx auto;
+	margin-bottom: 15rpx;
+	padding: 20rpx 0 0 20rpx;
+	-webkit-border-radius: 6rpx;
+	        border-radius: 6rpx;
+}
+
